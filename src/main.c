@@ -3,6 +3,7 @@
 
 int main(void) {
     init_servo();
+    sei();
 
     while(1) {
         servo1_set_percentage(100);
