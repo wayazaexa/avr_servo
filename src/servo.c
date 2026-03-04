@@ -37,7 +37,6 @@ void init_servo(void) {
  
 	servo1_set_percentage(0);
 	servo2_set_percentage(0);
-	sei();
 }
  
 void servo1_set_percentage(signed char percentage) {
